@@ -1,6 +1,7 @@
 # techiton
 Robotic Real-Time Strategy (RTS) game
 
+# Currently in pre-alpha and early stages of development!
 ## https://techiton.net
 
 ## Game server: (https://github.com/jacobbetz/techiton-server)
