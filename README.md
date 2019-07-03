@@ -1,8 +1,8 @@
 # Techiton
-Robotic Real-Time Strategy (RTS) game
+<i>A robotic Real-Time Strategy game with mechanical simplicity and annihilation in mind.</i>
 
 ## Please note: <i>Currently in pre-alpha and early stages of development!</i>
-*A Real Time Strategy (RTS) game based on [Unity3D](https://unity3d.com/) and inspired by [Total Annihilation (1997)](https://en.wikipedia.org/wiki/Total_Annihilation)*
+*Based on [Unity3D](https://unity3d.com/) and inspired by [Total Annihilation (1997)](https://en.wikipedia.org/wiki/Total_Annihilation).*
 
 [Techiton game source code](https://github.com/jacobbetz/techiton-game)
 <br>
@@ -15,7 +15,7 @@ Robotic Real-Time Strategy (RTS) game
 [Techiton website](https://techiton.net)
 <br>
 [Techiton website source](https://github.com/jacobbetz/techiton-www)
-<br><br><br>
+<br><br>
 
 
 I've largely found myself unsatisfied with modern RTS games. In the last ten years and had come to the conclusion that they are simply too complex but at the same time, unflexable. Total Annihilation allowed you to not be rooted to a specific area for resources on the map, besides the (infinite) metal collection nodes that are limited by the Tech level for Metal extraction rate.
