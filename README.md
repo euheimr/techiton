@@ -28,6 +28,4 @@ Problem is that most modern RTSs involve too much micro-play. Supreme Commander 
 Simplicity is key. A lot of strategy is already pretty involved by making decisions on the number of certain units, where to place them, where to make factories and defensive structures alone. Adding spells to certain units convolutes things despite how satisfying it can sometimes be. <br>
 
 Also it's a real struggle for anyone to run totalA on a modern system without hurdles.<br>
-<br>
-Want some (sometimes badly drawn)  ideas that I post? <br>
-https://www.instagram.com/pannihilation/
+
