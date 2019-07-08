@@ -22,20 +22,20 @@ public abstract class UnitProperties : MonoBehaviour
     public int cost;
 
     void Awake ()
-	{
+    {
         // Read properties file
-	    List<string> parameterList = new List<string>();
+        List<string> parameterList = new List<string>();
 
-	    foreach (string line in File.ReadAllLines("Assets/RTS Framework/Data/"+propertiesFile))
-	    {
+        foreach (string line in File.ReadAllLines("Assets/RTS Framework/Data/"+propertiesFile))
+        {
             // Ignore comments
             if (line[0] != '#') 
-	            parameterList.Add(line);           
-	    }
+                parameterList.Add(line);           
+        }
 
-	    unitParameters = parameterList.ToArray();
-	    InterpretFileData();
-	}
+        unitParameters = parameterList.ToArray();
+        InterpretFileData();
+    }
 
     /// <summary>
     /// Interpret the loaded data in the 

@@ -17,8 +17,8 @@ public class CameraMovement : MonoBehaviour {
         _screenSize.y = Screen.height;
     }
 
-	// Update is called once per frame
-	void Update () {
+    // Update is called once per frame
+    void Update () {
         // Press space to block camera movement
         if (Input.GetKeyDown(KeyCode.Space))
         {

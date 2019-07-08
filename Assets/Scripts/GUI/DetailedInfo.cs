@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 /// <summary>
-/// Displays the UI healthbar and action text of a unit
+/// Displays the UI health bar and action text of a unit
 /// </summary>
 public class DetailedInfo : MonoBehaviour {
     private RectTransform rectTransform;
@@ -21,7 +21,7 @@ public class DetailedInfo : MonoBehaviour {
         actionText = GetComponentInChildren<Text>();
     }
 
-	public void Initialize (GameObject owner) {
+    public void Initialize (GameObject owner) {
         this.owner = owner;       
 
         // Set owner object destruction listener:
@@ -31,9 +31,9 @@ public class DetailedInfo : MonoBehaviour {
                    if (owner.Equals((GameObject)sender))
                        Destroy(this.gameObject);
                };
-	}
+    }
 
-	void Update () {
+    void Update () {
         float x = Camera.main.WorldToScreenPoint(target.position).x - Screen.width / 2;
         float y = Camera.main.WorldToScreenPoint(target.position).y - Screen.height / 2;
         
@@ -66,7 +66,7 @@ public class DetailedInfo : MonoBehaviour {
     }
 
     /// <summary>
-    /// Sets the unit action text above the healthbar
+    /// Sets the unit action text above the health bar
     /// </summary>
     /// <param name="action"></param>
     public void SetText(string action)

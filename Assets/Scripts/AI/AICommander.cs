@@ -33,7 +33,7 @@ public class AICommander : MonoBehaviour {
         public DestinationType DestType; 
     }
 
-	void Start () { 
+    void Start () { 
         _availableUnits = new List<NPCUnit>();
 
         foreach(GameObject unit in GameObject.FindGameObjectsWithTag(Constants.NONPLAYER_UNIT))
@@ -62,9 +62,9 @@ public class AICommander : MonoBehaviour {
                 }
             };
 
-	    EventManager.UnitSpawned += 
+        EventManager.UnitSpawned += 
             (spawnedUnit, e) =>
-	        {
+            {
                 GameObject unit = (GameObject)spawnedUnit;
 
                 if (unit.tag == Constants.NONPLAYER_UNIT)
@@ -73,12 +73,12 @@ public class AICommander : MonoBehaviour {
                     unit.name = "Vehicle "+(char)('A'+(int)Random.Range(0,26))+(int)(100*Random.Range(0.1f, 1f));
                     AddNewUnit(unit);
                 }
-	        };
+            };
 
         StartCoroutine(CheckUnitDestinations());
-	}
-	
-	private IEnumerator CheckUnitDestinations() {
+    }
+    
+    private IEnumerator CheckUnitDestinations() {
         while (true)
         {
             // Check if a unit needs a new destination
@@ -96,7 +96,7 @@ public class AICommander : MonoBehaviour {
             }
             yield return new WaitForSeconds(_checkInterval);
         }
-	}
+    }
 
     private void OnUnitReachedDestination(NPCUnit npc)
     {

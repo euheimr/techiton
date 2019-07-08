@@ -128,7 +128,7 @@ public class SelectUnits : MonoBehaviour {
         };
     }
 
-	void Update () { 
+    void Update () { 
         RaycastHit hit;
 
         if (_player.IsConstructing())
@@ -203,7 +203,7 @@ public class SelectUnits : MonoBehaviour {
                 }
             }
         }
-	}
+    }
 
     /// <summary>
     /// Mark all selected units as unselected

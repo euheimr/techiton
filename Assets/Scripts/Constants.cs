@@ -37,7 +37,7 @@ public class Constants : MonoBehaviour {
     public enum TargetType
     {
         EnemyUnit = 0,
-        MineableZone = 1,
+        MetalZone = 1,
         Structure = 2
     }
 
@@ -45,7 +45,7 @@ public class Constants : MonoBehaviour {
     public static string NONPLAYER_UNIT = "NonplayerUnit";
     public static string PLAYER_UNIT = "SelectableUnit";
     public static string SPAWN_AREA = "Spawn";
-    public static string MINEABLE_ZONE = "Mineable";
+    public static string METAL_ZONE = "Metal";
 
     // Terrain
     public static int TERRAIN_HALF_SIZE = 500;

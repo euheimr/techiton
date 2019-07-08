@@ -6,19 +6,19 @@
 public class MapData : Singleton<MapData> {
 
     public Transform[] SpawnAreas;
-    public GameObject[] MineableZones;
+    public GameObject[] MetalZones;
 
 
     private void Awake()
     {
-        // Find spawn zones and mineable zones on the map
+        // Find spawn zones and metal zones on the map
         var spawns = GameObject.FindGameObjectsWithTag(Constants.SPAWN_AREA);
         SpawnAreas = new Transform[spawns.Length];
         int i = 0;
         foreach (GameObject spawn in spawns)
             SpawnAreas[i++] = spawn.transform;
 
-        MineableZones = GameObject.FindGameObjectsWithTag(Constants.MINEABLE_ZONE);
+        MetalZones = GameObject.FindGameObjectsWithTag(Constants.Metal_ZONE);
     }
 
     /// <summary>
@@ -36,8 +36,8 @@ public class MapData : Singleton<MapData> {
             destType = MapDestination.DestinationType.SpawnZone;
         }
         else {
-            destPosition = MineableZones[Random.Range(0, MineableZones.Length)].transform.position;
-            destType = MapDestination.DestinationType.MineableZone;
+            destPosition = MetalZones[Random.Range(0, MetalZones.Length)].transform.position;
+            destType = MapDestination.DestinationType.MetalZone;
         }
 
 
