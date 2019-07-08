@@ -8,15 +8,15 @@ public class AutoDestroyObject : MonoBehaviour {
 
     private float timer;
 
-    void Start () {
+	void Start () {
         timer = Lifetime;
-    }
-    
-    void Update () {
+	}
+	
+	void Update () {
         timer -= Time.deltaTime;
         if(timer < 0)
         {
             GameObject.Destroy(this.gameObject);
         }
-    }
+	}
 }

@@ -33,7 +33,7 @@ public class Projectile : MonoBehaviour {
             transform.position += transform.forward*Speed*Time.deltaTime;
         }
     }
-    
+	
     /// <summary>
     /// Projectile should only hit the intended target
     /// </summary>

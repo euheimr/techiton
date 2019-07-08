@@ -11,7 +11,7 @@ public class MapDestination {
     public enum DestinationType
     {
         Structure,
-        MetalZone,
+        MineableZone,
         SpawnZone
     }
 

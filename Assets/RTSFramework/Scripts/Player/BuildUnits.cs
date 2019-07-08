@@ -41,7 +41,7 @@ public class BuildUnits : Singleton<BuildUnits>
             RaycastHit hit;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             // Display building indicator (with green or red material)
-            if (Physics.Raycast(ray, out hit, Mathf.Infinity, buildingLayer))
+            if (Physics.Raycast(ray, out hit, Mathf.Infinity, buildingLayer /*LayerMask.NameToLayer("TerrainLayer")*/))
             {
                 _indicator.transform.position = hit.point;
             }
