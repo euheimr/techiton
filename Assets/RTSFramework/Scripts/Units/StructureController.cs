@@ -67,10 +67,10 @@ public class StructureController : UnitController {
                     _currentTarget = target;
                 }
                 break;
-            case (int)Constants.TargetType.MineableZone:
+            case (int)Constants.TargetType.MetalZone:
                 if (availableActions[(int)Constants.UnitAction.Interact] == true)
                 {
-                    Debug.Log("Mineable zone set as target: " + target.name);
+                    Debug.Log("Metal zone set as target: " + target.name);
                     _currentTarget = target;
                 }
                 break;
