@@ -21,7 +21,7 @@ public class VehicleController : UnitController
     protected NavMeshAgent _navMeshAgent;
 
     // Timers
-    private float _miningTimer;
+    private float _BuildTimer;
 
     private void Awake()
     {
@@ -85,7 +85,7 @@ public class VehicleController : UnitController
                     _currentTarget = target;
                 }
                 break;
-            case (int)Constants.TargetType.MineableZone:
+            case (int)Constants.TargetType.MetalZone:
                 if (availableActions[(int)Constants.UnitAction.Interact] == true)
                 {
                     //Debug.Log("Mineable zone set as target: " + target.name);
