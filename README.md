@@ -11,13 +11,13 @@
   - An account will be optional and free for single-player and would only be used for tracking individual statistics and replays.
   - The account profile will be viewable from https://techiton.net/profile/<username>
     - Profiles will be hidden by default.
-    - Profiles will show number of overall games, wins, losses, energy generated, metal generated, and time played.
+    - Profiles will show number of overall games, wins, losses, energy generated, metal generated, units created, units destroyed and time played.
     - The website will handle the maths for the generation and display of averages of the said values.
+    - After each game concludes, the game exits to show the post-game numbers and a button linking back to the game lobby.
 
-The plan for multiplayer is to have a small one-time fee of $3-5 to help in server costs.
-This also includes replay storage and user account statistics.
-
-(this also could help with phony account creation too)
+The plan for multiplayer is to have a small one-time fee of $3-5 to help in server costs.<br>
+This also includes replay storage and user account statistics.<br>
+(this also could help with phony account creation too)<br><br>
 * For the in-game login, imagine along the lines of the Warcraft III login screen but with a robotic theme.
 * Game lobbies and general chat will be displayed after login. (visualize Diablo II's lobby)* 
 * If an account is not flagged for multiplayer, then it will be rejected and will hyperlink to the game page.
@@ -39,11 +39,5 @@ The game will run without the launcher client but does not have the capability t
 I would recommend using the [techiton launcher](https://github.com/jacobbetz/techiton-launcher) to launch the game instead.
 <br><br>
 
-
 <br><br>
-Looking for the other related projects?<br>
-* [Techiton Game Server source code](https://github.com/jacobbetz/techiton-server). <br>
-
-Websites source:<br>
-* [Techiton.net Website source code](https://github.com/jacobbetz/techiton-www). <br>
 * [My devblog source code](https://github.com/jacobbetz/jacobbetz.github.io). <br>
