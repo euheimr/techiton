@@ -22,10 +22,13 @@ Some basic stuff:
     - After each game concludes, the game exits to show the post-game numbers and a button linking back to the game lobby.
 
 *Multiplayer*:
+  Network transport layer (TSL): https://github.com/ValveSoftware/GameNetworkingSockets
   - The plan for multiplayer is to have a small one-time fee of $3-5 to help in server costs.<br>
   - This also includes replay storage and user account statistics.<br>
   - (this also could help with phony account creation too)<br>
   
+  
+
   - For the in-game login, imagine along the lines of the Warcraft III login screen but with a robotic theme.
   - Game lobbies and general chat will be displayed after login. (visualize Diablo II's lobby)* 
   - If an account is not flagged for multiplayer, then it will be rejected and will hyperlink to the game page.
