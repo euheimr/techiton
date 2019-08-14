@@ -13,6 +13,9 @@ Some basic stuff:
 
 
 ## Features planned
+*Units*:
+  - Planned: https://www.dropbox.com/s/ito3cpsd2kbptad/techiton-units-and-structures.xlsx?dl=0
+
 *Accounts*:
   - An account will be optional and free for single-player and would only be used for tracking individual statistics and replays.
   - The account profile will be viewable from https://techiton.net/profile/<username>
@@ -27,16 +30,17 @@ Some basic stuff:
   - This also includes replay storage and user account statistics.<br>
   - (this also could help with phony account creation too)<br>
   
-  
-
+*Game lobbies*:
   - For the in-game login, imagine along the lines of the Warcraft III login screen but with a robotic theme.
   - Game lobbies and general chat will be displayed after login. (visualize Diablo II's lobby)* 
   - If an account is not flagged for multiplayer, then it will be rejected and will hyperlink to the game page.
   - Group chats are planned.
 
+
 This is basically how I document, design and develop:
 GitKraken is essentially part of my workflow (and pay a subscription for GitKraken Pro).
-[GitKraken Glo](https://www.gitkraken.com/glo) board Kanban cards 
+[GitKraken Glo](https://www.gitkraken.com/glo) board Kanban cards.
+ 
 Let me know if you would use it!  Only rule is to create a new card in the ideas column unless you're developing something.
 I can send you an invite via email and let me know what you're interested in working on.
 
